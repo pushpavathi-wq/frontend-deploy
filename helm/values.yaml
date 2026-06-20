@@ -1,0 +1,10 @@
+deployment:
+  version: IMAGE_VERSION
+  imageURL: 
+  replicas: 1
+hpa:
+  minreplicas: 1
+  maxreplicas: 10
+  cpuutilisation: 5
+tgb:
+  arn: 
